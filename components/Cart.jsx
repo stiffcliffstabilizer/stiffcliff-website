@@ -98,7 +98,7 @@ const Cart = () => {
               <h3>${totalPrice.toFixed(2)}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
+              <button disabled={true} type="button" className="btn" onClick={handleCheckout}>
                 Pay with Stripe
               </button>
             </div>
